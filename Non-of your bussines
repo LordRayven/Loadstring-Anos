@@ -86,7 +86,7 @@ Hannonymous.BackgroundTransparency = 1.000
 Hannonymous.Position = UDim2.new(-0.0399380997, 0, -0.00923076924, 0)
 Hannonymous.Size = UDim2.new(0, 200, 0, 30)
 Hannonymous.Font = Enum.Font.SciFi
-Hannonymous.Text = "Hannonymous GUI V2"
+Hannonymous.Text = "Hannonymous GUI V2 fixed"
 Hannonymous.TextColor3 = Color3.fromRGB(76, 211, 211)
 Hannonymous.TextSize = 15.000
 
