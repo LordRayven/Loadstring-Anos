@@ -1,6 +1,6 @@
 local RubiaScriptLT2 = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
-local Hannonymous = Instance.new("TextLabel")
+local RayvenScriptLT = Instance.new("TextLabel")
 local WoodFrame = Instance.new("Frame")
 local Volcano = Instance.new("TextButton")
 local CaveCrawler = Instance.new("TextButton")
@@ -71,7 +71,7 @@ RubiaScriptLT2.Parent = game.CoreGui
 
 Main.Name = "Main"
 Main.Parent = RubiaScriptLT2
-Main.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
+Main.BackgroundColor3 = Color3.fromRGB(180, 128, 255)
 Main.Position = UDim2.new(0.132290184, 0, 0.150300607, 0)
 Main.Size = UDim2.new(0, 331, 0, 325)
 Main.Visible = false
@@ -79,20 +79,20 @@ Main.Active = true
 Main.Selectable = true
 Main.Draggable = true
 
-Hannonymous.Name = "Hannonymous"
-Hannonymous.Parent = Main
-Hannonymous.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Hannonymous.BackgroundTransparency = 1.000
-Hannonymous.Position = UDim2.new(-0.0399380997, 0, -0.00923076924, 0)
-Hannonymous.Size = UDim2.new(0, 200, 0, 30)
-Hannonymous.Font = Enum.Font.SciFi
-Hannonymous.Text = "Hannonymous GUI V2 fixed"
-Hannonymous.TextColor3 = Color3.fromRGB(76, 211, 211)
-Hannonymous.TextSize = 15.000
+RayvenScriptLT.Name = "RubiaScriptLT2"
+RayvenScriptLT.Parent = Main
+RayvenScriptLT.BackgroundColor3 = Color3.fromRGB(180, 128, 255)
+RayvenScriptLT.BackgroundTransparency = 1.000
+RayvenScriptLT.Position = UDim2.new(-0.0399380997, 0, -0.00923076924, 0)
+RayvenScriptLT.Size = UDim2.new(0, 200, 0, 30)
+RayvenScriptLT.Font = Enum.Font.SciFi
+RayvenScriptLT.Text = "RubiaScriptLT2"
+RayvenScriptLT.TextColor3 = Color3.fromRGB(255, 0, 255)
+RayvenScriptLT.TextSize = 15.000
 
 WoodFrame.Name = "WoodFrame"
 WoodFrame.Parent = Main
-WoodFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WoodFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 WoodFrame.BackgroundTransparency = 1.000
 WoodFrame.Position = UDim2.new(0, 0, 0.243076921, 0)
 WoodFrame.Size = UDim2.new(0, 330, 0, 246)
@@ -100,187 +100,187 @@ WoodFrame.Visible = false
 
 Volcano.Name = "Volcano"
 Volcano.Parent = WoodFrame
-Volcano.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Volcano.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Volcano.Position = UDim2.new(0.0637480617, 0, 0.0645528138, 0)
 Volcano.Size = UDim2.new(0, 72, 0, 26)
 Volcano.Font = Enum.Font.FredokaOne
 Volcano.Text = "Volcano"
-Volcano.TextColor3 = Color3.fromRGB(255, 255, 255)
+Volcano.TextColor3 = Color3.fromRGB(255, 0, 255)
 Volcano.TextSize = 14.000
 
 CaveCrawler.Name = "Cave Crawler"
 CaveCrawler.Parent = WoodFrame
-CaveCrawler.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+CaveCrawler.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 CaveCrawler.Position = UDim2.new(0.281270713, 0, 0.0645528138, 0)
 CaveCrawler.Size = UDim2.new(0, 72, 0, 26)
 CaveCrawler.Font = Enum.Font.FredokaOne
 CaveCrawler.Text = "Cave"
-CaveCrawler.TextColor3 = Color3.fromRGB(255, 255, 255)
+CaveCrawler.TextColor3 = Color3.fromRGB(255, 0, 255)
 CaveCrawler.TextSize = 14.000
 
 SnowGlow.Name = "Snow Glow"
 SnowGlow.Parent = WoodFrame
-SnowGlow.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+SnowGlow.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 SnowGlow.Position = UDim2.new(0.498793393, 0, 0.0645528138, 0)
 SnowGlow.Size = UDim2.new(0, 72, 0, 26)
 SnowGlow.Font = Enum.Font.FredokaOne
 SnowGlow.Text = "Yellow"
-SnowGlow.TextColor3 = Color3.fromRGB(255, 255, 255)
+SnowGlow.TextColor3 = Color3.fromRGB(255, 0, 255)
 SnowGlow.TextSize = 14.000
 
 Frost.Name = "Frost"
 Frost.Parent = WoodFrame
-Frost.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Frost.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Frost.Position = UDim2.new(0.716316104, 0, 0.0645528138, 0)
 Frost.Size = UDim2.new(0, 72, 0, 26)
 Frost.Font = Enum.Font.FredokaOne
 Frost.Text = "Frost"
-Frost.TextColor3 = Color3.fromRGB(255, 255, 255)
+Frost.TextColor3 = Color3.fromRGB(255, 0, 255)
 Frost.TextSize = 14.000
 
 Green.Name = "Green"
 Green.Parent = WoodFrame
-Green.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Green.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Green.Position = UDim2.new(0.0637480617, 0, 0.213996232, 0)
 Green.Size = UDim2.new(0, 72, 0, 26)
 Green.Font = Enum.Font.FredokaOne
 Green.Text = "Green"
-Green.TextColor3 = Color3.fromRGB(255, 255, 255)
+Green.TextColor3 = Color3.fromRGB(255, 0, 255)
 Green.TextSize = 14.000
 
 Gold.Name = "Gold"
 Gold.Parent = WoodFrame
-Gold.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Gold.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Gold.Position = UDim2.new(0.281270713, 0, 0.213996232, 0)
 Gold.Size = UDim2.new(0, 72, 0, 26)
 Gold.Font = Enum.Font.FredokaOne
 Gold.Text = "Gold"
-Gold.TextColor3 = Color3.fromRGB(255, 255, 255)
+Gold.TextColor3 = Color3.fromRGB(255, 0, 255)
 Gold.TextSize = 14.000
 
 Oak.Name = "Oak"
 Oak.Parent = WoodFrame
-Oak.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Oak.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Oak.Position = UDim2.new(0.495772302, 0, 0.213996202, 0)
 Oak.Size = UDim2.new(0, 72, 0, 26)
 Oak.Font = Enum.Font.FredokaOne
 Oak.Text = "Oak"
-Oak.TextColor3 = Color3.fromRGB(255, 255, 255)
+Oak.TextColor3 = Color3.fromRGB(255, 0, 255)
 Oak.TextSize = 14.000
 
 Cherry.Name = "Cherry"
 Cherry.Parent = WoodFrame
-Cherry.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Cherry.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Cherry.Position = UDim2.new(0.716316104, 0, 0.213996232, 0)
 Cherry.Size = UDim2.new(0, 72, 0, 26)
 Cherry.Font = Enum.Font.FredokaOne
 Cherry.Text = "Cherry"
-Cherry.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cherry.TextColor3 = Color3.fromRGB(255, 0, 255)
 Cherry.TextSize = 14.000
 
 Pine.Name = "Pine"
 Pine.Parent = WoodFrame
-Pine.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Pine.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Pine.Position = UDim2.new(0.0607269295, 0, 0.365528375, 0)
 Pine.Size = UDim2.new(0, 72, 0, 26)
 Pine.Font = Enum.Font.FredokaOne
 Pine.Text = "Pine"
-Pine.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pine.TextColor3 = Color3.fromRGB(255, 0, 255)
 Pine.TextSize = 14.000
 
 Fir.Name = "Fir"
 Fir.Parent = WoodFrame
-Fir.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Fir.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Fir.Position = UDim2.new(0.494060248, 0, 0.365528375, 0)
 Fir.Size = UDim2.new(0, 73, 0, 26)
 Fir.Font = Enum.Font.FredokaOne
 Fir.Text = "Fir"
-Fir.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fir.TextColor3 = Color3.fromRGB(255, 0, 255)
 Fir.TextSize = 14.000
 
 Koa.Name = "Koa"
 Koa.Parent = WoodFrame
-Koa.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Koa.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Koa.Position = UDim2.new(0.278908759, 0, 0.365528375, 0)
 Koa.Size = UDim2.new(0, 71, 0, 26)
 Koa.Font = Enum.Font.FredokaOne
 Koa.Text = "Koa"
-Koa.TextColor3 = Color3.fromRGB(255, 255, 255)
+Koa.TextColor3 = Color3.fromRGB(255, 0, 255)
 Koa.TextSize = 14.000
 
 Generic.Name = "Generic"
 Generic.Parent = WoodFrame
-Generic.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Generic.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Generic.Position = UDim2.new(0.716984391, 0, 0.365528375, 0)
 Generic.Size = UDim2.new(0, 70, 0, 26)
 Generic.Font = Enum.Font.FredokaOne
 Generic.Text = "Generic"
-Generic.TextColor3 = Color3.fromRGB(255, 255, 255)
+Generic.TextColor3 = Color3.fromRGB(255, 0, 255)
 Generic.TextSize = 14.000
 
 Elm.Name = "Elm"
 Elm.Parent = WoodFrame
-Elm.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Elm.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Elm.Position = UDim2.new(0.716984391, 0, 0.523101807, 0)
 Elm.Size = UDim2.new(0, 71, 0, 26)
 Elm.Font = Enum.Font.FredokaOne
 Elm.Text = "Spooky"
-Elm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Elm.TextColor3 = Color3.fromRGB(255, 0, 255)
 Elm.TextSize = 14.000
 
 Birch.Name = "Birch"
 Birch.Parent = WoodFrame
-Birch.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Birch.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Birch.Position = UDim2.new(0.495772302, 0, 0.523101807, 0)
 Birch.Size = UDim2.new(0, 72, 0, 26)
 Birch.Font = Enum.Font.FredokaOne
 Birch.Text = "Birch"
-Birch.TextColor3 = Color3.fromRGB(255, 255, 255)
+Birch.TextColor3 = Color3.fromRGB(255, 0, 255)
 Birch.TextSize = 14.000
 
 Palm.Name = "Palm"
 Palm.Parent = WoodFrame
-Palm.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Palm.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Palm.Position = UDim2.new(0.28192988, 0, 0.523101807, 0)
 Palm.Size = UDim2.new(0, 70, 0, 26)
 Palm.Font = Enum.Font.FredokaOne
 Palm.Text = "Palm"
-Palm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Palm.TextColor3 = Color3.fromRGB(255, 0, 255)
 Palm.TextSize = 14.000
 
 Walnut.Name = "Walnut"
 Walnut.Parent = WoodFrame
-Walnut.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Walnut.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Walnut.Position = UDim2.new(0.0637572333, 0, 0.523101807, 0)
 Walnut.Size = UDim2.new(0, 71, 0, 26)
 Walnut.Font = Enum.Font.FredokaOne
 Walnut.Text = "Walnut"
-Walnut.TextColor3 = Color3.fromRGB(255, 255, 255)
+Walnut.TextColor3 = Color3.fromRGB(255, 0, 255)
 Walnut.TextSize = 14.000
 
 tpwood.Name = "tpwood"
 tpwood.Parent = WoodFrame
-tpwood.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+tpwood.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 tpwood.Position = UDim2.new(0.598500371, 0, 0.672545373, 0)
 tpwood.Size = UDim2.new(0, 72, 0, 26)
 tpwood.Font = Enum.Font.FredokaOne
 tpwood.Text = "Bring Tree"
-tpwood.TextColor3 = Color3.fromRGB(255, 255, 255)
+tpwood.TextColor3 = Color3.fromRGB(255, 0, 255)
 tpwood.TextSize = 14.000
 
 tpmyslot.Name = "tpmyslot"
 tpmyslot.Parent = WoodFrame
-tpmyslot.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+tpmyslot.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 tpmyslot.Position = UDim2.new(0.59547925, 0, 0.812757969, 0)
 tpmyslot.Size = UDim2.new(0, 72, 0, 26)
 tpmyslot.Font = Enum.Font.FredokaOne
 tpmyslot.Text = "Go Home"
-tpmyslot.TextColor3 = Color3.fromRGB(255, 255, 255)
+tpmyslot.TextColor3 = Color3.fromRGB(255, 0, 255)
 tpmyslot.TextSize = 14.000
 
 WoodPlayer.Name = "WoodPlayer"
 WoodPlayer.Parent = WoodFrame
-WoodPlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WoodPlayer.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 WoodPlayer.Position = UDim2.new(0.172727272, 0, 0.670731723, 0)
 WoodPlayer.Size = UDim2.new(0, 130, 0, 26)
 WoodPlayer.Font = Enum.Font.SourceSans
@@ -295,7 +295,7 @@ Close.Position = UDim2.new(0.924775183, 0, 0, 0)
 Close.Size = UDim2.new(0, 24, 0, 24)
 Close.Font = Enum.Font.Ubuntu
 Close.Text = "X"
-Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextColor3 = Color3.fromRGB(255, 0, 255)
 Close.TextSize = 14.000
 Close.MouseButton1Down:connect(function()
 RubiaScriptLT2:Destroy()
@@ -308,7 +308,7 @@ Minimize.Position = UDim2.new(0.839879155, 0, 0, 0)
 Minimize.Size = UDim2.new(0, 22, 0, 24)
 Minimize.Font = Enum.Font.Ubuntu
 Minimize.Text = "-"
-Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
+Minimize.TextColor3 = Color3.fromRGB(255, 0, 255)
 Minimize.TextSize = 14.000
 Minimize.MouseButton1Down:connect(function()
 Main.Visible = false
@@ -317,12 +317,12 @@ end)
 
 Open.Name = "Open"
 Open.Parent = RubiaScriptLT2
-Open.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
+Open.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 Open.Position = UDim2.new(0.839879155, 0, -0.0123076923, 0)
 Open.Size = UDim2.new(0, 54, 0, 22)
 Open.Font = Enum.Font.SourceSans
 Open.Text = "Open"
-Open.TextColor3 = Color3.fromRGB(255, 255, 255)
+Open.TextColor3 = Color3.fromRGB(255, 0, 255)
 Open.TextSize = 14.000
 Open.MouseButton1Down:connect(function()
 Main.Visible = true
@@ -331,7 +331,7 @@ end)
 
 DupeFrame.Name = "DupeFrame"
 DupeFrame.Parent = Main
-DupeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DupeFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 DupeFrame.BackgroundTransparency = 1.000
 DupeFrame.Position = UDim2.new(0, 0, 0.243076921, 0)
 DupeFrame.Size = UDim2.new(0, 330, 0, 246)
@@ -339,28 +339,28 @@ DupeFrame.Visible = false
 
 SaveSlot.Name = "SaveSlot"
 SaveSlot.Parent = DupeFrame
-SaveSlot.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+SaveSlot.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 SaveSlot.Position = UDim2.new(0.371236891, 0, 0.207066908, 0)
 SaveSlot.Size = UDim2.new(0, 89, 0, 26)
 SaveSlot.Font = Enum.Font.FredokaOne
 SaveSlot.Text = "Save"
-SaveSlot.TextColor3 = Color3.fromRGB(255, 255, 255)
+SaveSlot.TextColor3 = Color3.fromRGB(255, 0, 255)
 SaveSlot.TextSize = 14.000
 
 SlotText.Name = "SlotText"
 SlotText.Parent = DupeFrame
-SlotText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SlotText.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 SlotText.BackgroundTransparency = 1.000
 SlotText.Position = UDim2.new(0.196969703, 0, -0.0284552854, 0)
 SlotText.Size = UDim2.new(0, 200, 0, 27)
 SlotText.Font = Enum.Font.SciFi
 SlotText.Text = "Enter Your Slot Number :"
-SlotText.TextColor3 = Color3.fromRGB(255, 255, 255)
+SlotText.TextColor3 = Color3.fromRGB(255, 0, 255)
 SlotText.TextSize = 14.000
 
 Slot.Name = "SlotNumber"
 Slot.Parent = DupeFrame
-Slot.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Slot.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 Slot.Position = UDim2.new(0.442424238, 0, 0.08130081, 0)
 Slot.Size = UDim2.new(0, 39, 0, 23)
 Slot.Font = Enum.Font.SourceSans
@@ -370,27 +370,27 @@ Slot.TextSize = 14.000
 
 DupeMoney.Name = "DupeMoney"
 DupeMoney.Parent = DupeFrame
-DupeMoney.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+DupeMoney.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 DupeMoney.Position = UDim2.new(0.640933871, 0, 0.207066908, 0)
 DupeMoney.Size = UDim2.new(0, 94, 0, 26)
 DupeMoney.Font = Enum.Font.FredokaOne
 DupeMoney.Text = "Dupe Money"
-DupeMoney.TextColor3 = Color3.fromRGB(255, 255, 255)
+DupeMoney.TextColor3 = Color3.fromRGB(255, 0, 255)
 DupeMoney.TextSize = 14.000
 
 LoadSlot.Name = "LoadSlot"
 LoadSlot.Parent = DupeFrame
-LoadSlot.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+LoadSlot.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 LoadSlot.Position = UDim2.new(0.0742671639, 0, 0.207066908, 0)
 LoadSlot.Size = UDim2.new(0, 97, 0, 26)
 LoadSlot.Font = Enum.Font.FredokaOne
 LoadSlot.Text = "Load"
-LoadSlot.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadSlot.TextColor3 = Color3.fromRGB(255, 0, 255)
 LoadSlot.TextSize = 14.000
 
 PlayerFrame.Name = "PlayerFrame"
 PlayerFrame.Parent = Main
-PlayerFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 PlayerFrame.BackgroundTransparency = 1.000
 PlayerFrame.Position = UDim2.new(0, 0, 0.243076921, 0)
 PlayerFrame.Size = UDim2.new(0, 330, 0, 246)
@@ -398,77 +398,77 @@ PlayerFrame.Visible = false
 
 PlrSpd.Name = "PlrSpd"
 PlrSpd.Parent = PlayerFrame
-PlrSpd.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+PlrSpd.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 PlrSpd.Position = UDim2.new(0.0637480915, 0, 0.00357719348, 0)
 PlrSpd.Size = UDim2.new(0, 72, 0, 25)
 PlrSpd.Font = Enum.Font.FredokaOne
 PlrSpd.Text = "Speed"
-PlrSpd.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlrSpd.TextColor3 = Color3.fromRGB(255, 0, 255)
 PlrSpd.TextSize = 14.000
 
 PlrRst.Name = "PlrRst"
 PlrRst.Parent = PlayerFrame
-PlrRst.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+PlrRst.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 PlrRst.Position = UDim2.new(0.494051129, 0, 0.00357719348, 0)
 PlrRst.Size = UDim2.new(0, 72, 0, 25)
 PlrRst.Font = Enum.Font.FredokaOne
 PlrRst.Text = "ResetDupe Axe"
-PlrRst.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlrRst.TextColor3 = Color3.fromRGB(255, 0, 255)
 PlrRst.TextSize = 14.000
 
 Fog.Name = "Fog"
 Fog.Parent = PlayerFrame
-Fog.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Fog.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Fog.Position = UDim2.new(0.748596549, 0, 0.00357719348, 0)
 Fog.Size = UDim2.new(0, 72, 0, 25)
 Fog.Font = Enum.Font.FredokaOne
 Fog.Text = "No Fog"
-Fog.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fog.TextColor3 = Color3.fromRGB(255, 0, 255)
 Fog.TextSize = 14.000
 
 PlrClip.Name = "PlrClip"
 PlrClip.Parent = PlayerFrame
-PlrClip.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+PlrClip.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 PlrClip.Position = UDim2.new(0.494051129, 0, 0.149918661, 0)
 PlrClip.Size = UDim2.new(0, 72, 0, 25)
 PlrClip.Font = Enum.Font.FredokaOne
 PlrClip.Text = "No Clip"
-PlrClip.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlrClip.TextColor3 = Color3.fromRGB(255, 0, 255)
 PlrClip.TextSize = 14.000
 
 PlrJump.Name = "PlrJump"
 PlrJump.Parent = PlayerFrame
-PlrJump.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+PlrJump.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 PlrJump.Position = UDim2.new(0.748596549, 0, 0.149918661, 0)
 PlrJump.Size = UDim2.new(0, 72, 0, 25)
 PlrJump.Font = Enum.Font.FredokaOne
 PlrJump.Text = "Inf Jump"
-PlrJump.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlrJump.TextColor3 = Color3.fromRGB(255, 0, 255)
 PlrJump.TextSize = 14.000
 
 PlrTp.Name = "PlrTp"
 PlrTp.Parent = PlayerFrame
-PlrTp.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+PlrTp.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 PlrTp.Position = UDim2.new(0.172838986, 0, 0.743414521, 0)
 PlrTp.Size = UDim2.new(0, 99, 0, 25)
 PlrTp.Font = Enum.Font.FredokaOne
 PlrTp.Text = "Tp To Player"
-PlrTp.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlrTp.TextColor3 = Color3.fromRGB(255, 0, 255)
 PlrTp.TextSize = 14.000
 
 PlrBase.Name = "PlrBase"
 PlrBase.Parent = PlayerFrame
-PlrBase.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+PlrBase.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 PlrBase.Position = UDim2.new(0.539505661, 0, 0.743414521, 0)
 PlrBase.Size = UDim2.new(0, 99, 0, 25)
 PlrBase.Font = Enum.Font.FredokaOne
 PlrBase.Text = "Tp To Base"
-PlrBase.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlrBase.TextColor3 = Color3.fromRGB(255, 0, 255)
 PlrBase.TextSize = 14.000
 
 PlrTpTxt.Name = "PlrTpTxt"
 PlrTpTxt.Parent = PlayerFrame
-PlrTpTxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlrTpTxt.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 PlrTpTxt.Position = UDim2.new(0.302830398, 0, 0.577129126, 0)
 PlrTpTxt.Size = UDim2.new(0, 130, 0, 25)
 PlrTpTxt.Font = Enum.Font.SourceSans
@@ -479,7 +479,7 @@ PlrTpTxt.TextSize = 14.000
 
 PlrSpdTxt.Name = "PlrSpdTxt"
 PlrSpdTxt.Parent = PlayerFrame
-PlrSpdTxt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlrSpdTxt.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 PlrSpdTxt.Position = UDim2.new(0.303030312, 0, 0.00357719348, 0)
 PlrSpdTxt.Size = UDim2.new(0, 48, 0, 24)
 PlrSpdTxt.Font = Enum.Font.SourceSans
@@ -489,34 +489,34 @@ PlrSpdTxt.TextSize = 14.000
 
 PlrWater.Name = "PlrWater"
 PlrWater.Parent = PlayerFrame
-PlrWater.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+PlrWater.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 PlrWater.Position = UDim2.new(0.494051129, 0, 0.288130045, 0)
 PlrWater.Size = UDim2.new(0, 72, 0, 25)
 PlrWater.Font = Enum.Font.FredokaOne
 PlrWater.Text = "Water W."
-PlrWater.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlrWater.TextColor3 = Color3.fromRGB(255, 0, 255)
 PlrWater.TextSize = 14.000
 
 MaxLand.Name = "MaxLand"
 MaxLand.Parent = PlayerFrame
-MaxLand.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+MaxLand.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 MaxLand.Position = UDim2.new(0.748596549, 0, 0.288130045, 0)
 MaxLand.Size = UDim2.new(0, 72, 0, 25)
 MaxLand.Font = Enum.Font.FredokaOne
 MaxLand.Text = "Max Land"
-MaxLand.TextColor3 = Color3.fromRGB(255, 255, 255)
+MaxLand.TextColor3 = Color3.fromRGB(255, 0, 255)
 MaxLand.TextSize = 14.000
 
 PlayerMenu.Name = "PlayerMenu"
 PlayerMenu.Parent = Main
 PlayerMenu.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-PlayerMenu.BorderColor3 = Color3.fromRGB(66, 100, 100)
+PlayerMenu.BorderColor3 = Color3.fromRGB(102, 51, 153)
 PlayerMenu.BorderSizePixel = 2
 PlayerMenu.Position = UDim2.new(0.0271903332, 0, 0.0923076943, 0)
 PlayerMenu.Size = UDim2.new(0, 77, 0, 20)
 PlayerMenu.Font = Enum.Font.SciFi
 PlayerMenu.Text = "Player"
-PlayerMenu.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerMenu.TextColor3 = Color3.fromRGB(255, 0, 255)
 PlayerMenu.TextSize = 14.000
 PlayerMenu.MouseButton1Down:connect(function()
 PlayerFrame.Visible = true
@@ -528,13 +528,13 @@ end)
 WoodMenu.Name = "WoodMenu"
 WoodMenu.Parent = Main
 WoodMenu.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-WoodMenu.BorderColor3 = Color3.fromRGB(66, 100, 100)
+WoodMenu.BorderColor3 = Color3.fromRGB(102, 51, 153)
 WoodMenu.BorderSizePixel = 2
 WoodMenu.Position = UDim2.new(0.259818733, 0, 0.0923076943, 0)
 WoodMenu.Size = UDim2.new(0, 79, 0, 20)
 WoodMenu.Font = Enum.Font.SciFi
 WoodMenu.Text = "Wood"
-WoodMenu.TextColor3 = Color3.fromRGB(255, 255, 255)
+WoodMenu.TextColor3 = Color3.fromRGB(255, 0, 255)
 WoodMenu.TextSize = 14.000
 WoodMenu.MouseButton1Down:connect(function()
 WoodFrame.Visible = true
@@ -546,13 +546,13 @@ end)
 DupeMenu.Name = "DupeMenu"
 DupeMenu.Parent = Main
 DupeMenu.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-DupeMenu.BorderColor3 = Color3.fromRGB(66, 100, 100)
+DupeMenu.BorderColor3 = Color3.fromRGB(102, 51, 153)
 DupeMenu.BorderSizePixel = 2
 DupeMenu.Position = UDim2.new(0.498489439, 0, 0.0923076943, 0)
 DupeMenu.Size = UDim2.new(0, 80, 0, 20)
 DupeMenu.Font = Enum.Font.SciFi
 DupeMenu.Text = "Dupe"
-DupeMenu.TextColor3 = Color3.fromRGB(255, 255, 255)
+DupeMenu.TextColor3 = Color3.fromRGB(255, 0, 255)
 DupeMenu.TextSize = 14.000
 DupeMenu.MouseButton1Down:connect(function()
 DupeFrame.Visible = true
@@ -564,13 +564,13 @@ end)
 TpMenu.Name = "TpMenu"
 TpMenu.Parent = Main
 TpMenu.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
-TpMenu.BorderColor3 = Color3.fromRGB(66, 100, 100)
+TpMenu.BorderColor3 = Color3.fromRGB(102, 51, 153)
 TpMenu.BorderSizePixel = 2
 TpMenu.Position = UDim2.new(0.740181267, 0, 0.0923076943, 0)
 TpMenu.Size = UDim2.new(0, 80, 0, 20)
 TpMenu.Font = Enum.Font.SciFi
 TpMenu.Text = "Teleport"
-TpMenu.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpMenu.TextColor3 = Color3.fromRGB(255, 0, 255)
 TpMenu.TextSize = 14.000
 TpMenu.MouseButton1Down:connect(function()
 TpFrame.Visible = true
@@ -581,7 +581,7 @@ end)
 
 TpFrame.Name = "TpFrame"
 TpFrame.Parent = Main
-TpFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TpFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 TpFrame.BackgroundTransparency = 1.000
 TpFrame.Position = UDim2.new(0, 0, 0.190769225, 0)
 TpFrame.Size = UDim2.new(0, 330, 0, 263)
@@ -589,183 +589,183 @@ TpFrame.Visible = false
 
 BoxedCar.Name = "BoxedCar"
 BoxedCar.Parent = TpFrame
-BoxedCar.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+BoxedCar.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 BoxedCar.Position = UDim2.new(0.26980868, 0, 0.0492045693, 0)
 BoxedCar.Size = UDim2.new(0, 72, 0, 25)
 BoxedCar.Font = Enum.Font.FredokaOne
 BoxedCar.Text = "Boxed Car"
-BoxedCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+BoxedCar.TextColor3 = Color3.fromRGB(255, 0, 255)
 BoxedCar.TextSize = 14.000
 
 WoodRUs.Name = "WoodRUs"
 WoodRUs.Parent = TpFrame
-WoodRUs.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+WoodRUs.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 WoodRUs.Position = UDim2.new(0.0334450454, 0, 0.0492045693, 0)
 WoodRUs.Size = UDim2.new(0, 72, 0, 25)
 WoodRUs.Font = Enum.Font.FredokaOne
 WoodRUs.Text = "WoodRUs"
-WoodRUs.TextColor3 = Color3.fromRGB(255, 255, 255)
+WoodRUs.TextColor3 = Color3.fromRGB(255, 0, 255)
 WoodRUs.TextSize = 14.000
 
 Furnishings.Name = "Furnishings"
 Furnishings.Parent = TpFrame
-Furnishings.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+Furnishings.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 Furnishings.Position = UDim2.new(0.5092026, 0, 0.0492045693, 0)
 Furnishings.Size = UDim2.new(0, 72, 0, 25)
 Furnishings.Font = Enum.Font.FredokaOne
 Furnishings.Text = "Furnishings"
-Furnishings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Furnishings.TextColor3 = Color3.fromRGB(255, 0, 255)
 Furnishings.TextSize = 14.000
 
 LogicShop.Name = "LogicShop"
 LogicShop.Parent = TpFrame
-LogicShop.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+LogicShop.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 LogicShop.Position = UDim2.new(0.751626849, 0, 0.0492045693, 0)
 LogicShop.Size = UDim2.new(0, 72, 0, 25)
 LogicShop.Font = Enum.Font.FredokaOne
 LogicShop.Text = "Link's Logic"
-LogicShop.TextColor3 = Color3.fromRGB(255, 255, 255)
+LogicShop.TextColor3 = Color3.fromRGB(255, 0, 255)
 LogicShop.TextSize = 14.000
 
 LandStore.Name = "LandStore"
 LandStore.Parent = TpFrame
-LandStore.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+LandStore.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 LandStore.Position = UDim2.new(0.0334450454, 0, 0.178482145, 0)
 LandStore.Size = UDim2.new(0, 72, 0, 25)
 LandStore.Font = Enum.Font.FredokaOne
 LandStore.Text = "Land Store"
-LandStore.TextColor3 = Color3.fromRGB(255, 255, 255)
+LandStore.TextColor3 = Color3.fromRGB(255, 0, 255)
 LandStore.TextSize = 14.000
 
 BobsShack.Name = "BobsShack"
 BobsShack.Parent = TpFrame
-BobsShack.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+BobsShack.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 BobsShack.Position = UDim2.new(0.26980868, 0, 0.178482145, 0)
 BobsShack.Size = UDim2.new(0, 72, 0, 25)
 BobsShack.Font = Enum.Font.FredokaOne
 BobsShack.Text = "Bobs Shack"
-BobsShack.TextColor3 = Color3.fromRGB(255, 255, 255)
+BobsShack.TextColor3 = Color3.fromRGB(255, 0, 255)
 BobsShack.TextSize = 14.000
 
 ArtsShop.Name = "ArtsShop"
 ArtsShop.Parent = TpFrame
-ArtsShop.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+ArtsShop.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 ArtsShop.Position = UDim2.new(0.5092026, 0, 0.178482145, 0)
 ArtsShop.Size = UDim2.new(0, 72, 0, 25)
 ArtsShop.Font = Enum.Font.FredokaOne
 ArtsShop.Text = "Arts Shop"
-ArtsShop.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArtsShop.TextColor3 = Color3.fromRGB(255, 0, 255)
 ArtsShop.TextSize = 14.000
 
 PowerShop.Name = "PowerShop"
 PowerShop.Parent = TpFrame
-PowerShop.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+PowerShop.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 PowerShop.Position = UDim2.new(0.751626849, 0, 0.178482145, 0)
 PowerShop.Size = UDim2.new(0, 72, 0, 25)
 PowerShop.Font = Enum.Font.FredokaOne
 PowerShop.Text = "Buy Power"
-PowerShop.TextColor3 = Color3.fromRGB(255, 255, 255)
+PowerShop.TextColor3 = Color3.fromRGB(255, 0, 255)
 PowerShop.TextSize = 14.000
 
 TpCarTextLabel.Name = "TpCarTextLabel"
 TpCarTextLabel.Parent = TpFrame
-TpCarTextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TpCarTextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 TpCarTextLabel.BackgroundTransparency = 1.000
 TpCarTextLabel.Position = UDim2.new(0.269696981, 0, 0.326996207, 0)
 TpCarTextLabel.Size = UDim2.new(0, 151, 0, 19)
 TpCarTextLabel.Font = Enum.Font.SciFi
 TpCarTextLabel.Text = "Teleport With Car"
-TpCarTextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TpCarTextLabel.TextColor3 = Color3.fromRGB(255, 0, 255)
 TpCarTextLabel.TextSize = 14.000
 
 WoodRUsCar.Name = "WoodRUsCar"
 WoodRUsCar.Parent = TpFrame
-WoodRUsCar.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+WoodRUsCar.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 WoodRUsCar.Position = UDim2.new(0.0273844395, 0, 0.440839529, 0)
 WoodRUsCar.Size = UDim2.new(0, 72, 0, 25)
 WoodRUsCar.Font = Enum.Font.FredokaOne
 WoodRUsCar.Text = "WoodRUs"
-WoodRUsCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+WoodRUsCar.TextColor3 = Color3.fromRGB(255, 0, 255)
 WoodRUsCar.TextSize = 14.000
 
 BoxedCarCar.Name = "BoxedCarCar"
 BoxedCarCar.Parent = TpFrame
-BoxedCarCar.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+BoxedCarCar.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 BoxedCarCar.Position = UDim2.new(0.26374808, 0, 0.440839529, 0)
 BoxedCarCar.Size = UDim2.new(0, 72, 0, 25)
 BoxedCarCar.Font = Enum.Font.FredokaOne
 BoxedCarCar.Text = "Boxed Car"
-BoxedCarCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+BoxedCarCar.TextColor3 = Color3.fromRGB(255, 0, 255)
 BoxedCarCar.TextSize = 14.000
 
 FurnishingsCar.Name = "FurnishingsCar"
 FurnishingsCar.Parent = TpFrame
-FurnishingsCar.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+FurnishingsCar.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 FurnishingsCar.Position = UDim2.new(0.503141999, 0, 0.440839529, 0)
 FurnishingsCar.Size = UDim2.new(0, 72, 0, 25)
 FurnishingsCar.Font = Enum.Font.FredokaOne
 FurnishingsCar.Text = "Furnishings"
-FurnishingsCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+FurnishingsCar.TextColor3 = Color3.fromRGB(255, 0, 255)
 FurnishingsCar.TextSize = 14.000
 
 LogicShopCar.Name = "LogicShopCar"
 LogicShopCar.Parent = TpFrame
-LogicShopCar.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+LogicShopCar.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 LogicShopCar.Position = UDim2.new(0.745566249, 0, 0.440839529, 0)
 LogicShopCar.Size = UDim2.new(0, 72, 0, 25)
 LogicShopCar.Font = Enum.Font.FredokaOne
 LogicShopCar.Text = "Link's Logic"
-LogicShopCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+LogicShopCar.TextColor3 = Color3.fromRGB(255, 0, 255)
 LogicShopCar.TextSize = 14.000
 
 LandStoreCar.Name = "LandStoreCar"
 LandStoreCar.Parent = TpFrame
-LandStoreCar.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+LandStoreCar.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 LandStoreCar.Position = UDim2.new(0.0273844395, 0, 0.570117116, 0)
 LandStoreCar.Size = UDim2.new(0, 72, 0, 25)
 LandStoreCar.Font = Enum.Font.FredokaOne
 LandStoreCar.Text = "Land Store"
-LandStoreCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+LandStoreCar.TextColor3 = Color3.fromRGB(255, 0, 255)
 LandStoreCar.TextSize = 14.000
 
 BobsShackCar.Name = "BobsShackCar"
 BobsShackCar.Parent = TpFrame
-BobsShackCar.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+BobsShackCar.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 BobsShackCar.Position = UDim2.new(0.26374808, 0, 0.570117116, 0)
 BobsShackCar.Size = UDim2.new(0, 72, 0, 25)
 BobsShackCar.Font = Enum.Font.FredokaOne
 BobsShackCar.Text = "Bobs Shack"
-BobsShackCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+BobsShackCar.TextColor3 = Color3.fromRGB(255, 0, 255)
 BobsShackCar.TextSize = 14.000
 
 ArtsShopCar.Name = "ArtsShopCar"
 ArtsShopCar.Parent = TpFrame
-ArtsShopCar.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+ArtsShopCar.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 ArtsShopCar.Position = UDim2.new(0.503141999, 0, 0.570117116, 0)
 ArtsShopCar.Size = UDim2.new(0, 72, 0, 25)
 ArtsShopCar.Font = Enum.Font.FredokaOne
 ArtsShopCar.Text = "Arts Shop"
-ArtsShopCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+ArtsShopCar.TextColor3 = Color3.fromRGB(255, 0, 255)
 ArtsShopCar.TextSize = 14.000
 
 PowerShopCar.Name = "PowerShopCar"
 PowerShopCar.Parent = TpFrame
-PowerShopCar.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+PowerShopCar.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 PowerShopCar.Position = UDim2.new(0.745566249, 0, 0.570117116, 0)
 PowerShopCar.Size = UDim2.new(0, 72, 0, 25)
 PowerShopCar.Font = Enum.Font.FredokaOne
 PowerShopCar.Text = "Buy Power"
-PowerShopCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+PowerShopCar.TextColor3 = Color3.fromRGB(255, 0, 255)
 PowerShopCar.TextSize = 14.000
 
 GoHomeCar.Name = "GoHomeCar"
 GoHomeCar.Parent = TpFrame
-GoHomeCar.BackgroundColor3 = Color3.fromRGB(66, 100, 100)
+GoHomeCar.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
 GoHomeCar.Position = UDim2.new(0.387990505, 0, 0.706999242, 0)
 GoHomeCar.Size = UDim2.new(0, 72, 0, 25)
 GoHomeCar.Font = Enum.Font.FredokaOne
 GoHomeCar.Text = "Cave"
-GoHomeCar.TextColor3 = Color3.fromRGB(255, 255, 255)
+GoHomeCar.TextColor3 = Color3.fromRGB(255, 0, 255)
 GoHomeCar.TextSize = 14.000
 
 PlrSpd.MouseButton1Down:connect(function()
@@ -1178,19 +1178,19 @@ SaveSlot.MouseButton1Down:connect(function()
             ScriptLoadOrSave = true
             local SaveSlot = game.ReplicatedStorage.LoadSaveRequests.RequestSave:InvokeServer(CheckSlot)
             if SaveSlot == true then
-                SendNotification("Hannonymous V2", "Saved ;)", 2)
+                SendNotification("RayvenScriptLT V2", "Saved ;)", 2)
                 wait(.5)
                 ScriptLoadOrSave = false
             elseif SaveSlot == false then
-                SendNotification("Hannonymous V2", "Already Saving!", 1)
+                SendNotification("RayvenScriptLT V2", "Already Saving!", 1)
                 wait(.5)
                 ScriptLoadOrSave = false
             end
         else
-            SendNotification("Hannonymous V2", "Error! You're not even Loading", 1)
+            SendNotification("RayvenScriptLT V2", "Error! You're not even Loading", 1)
         end
     else
-        SendNotification("Hannonymous V2", "Hmm... Something's wrong", 1)
+        SendNotification("RayvenScriptLT V2", "Hmm... Something's wrong", 1)
     end
 end)
 
@@ -1201,34 +1201,34 @@ LoadSlot.MouseButton1Down:connect(function()
         if CheckIfSlotAvailable(CheckSlot) == true then
             local LoadSlot = game.ReplicatedStorage.LoadSaveRequests.RequestLoad:InvokeServer(CheckSlot)
             if LoadSlot == false then
-                SendNotification("Hannonymous V2", "Cooldown! Can't Load Now. Please Wait", 1)
+                SendNotification("RayvenScriptLT V2", "Cooldown! Can't Load Now. Please Wait", 1)
             end
             if LoadSlot == true then
-                SendNotification("Hannonymous V2", "Loaded!", 2)
+                SendNotification("RayvenScriptLT V2", "Loaded!", 2)
                 CurrentSlot = CheckSlot
             end
         else
-            SendNotification("Hannonymous V2", "Hmm... Something's wrong", 2)
+            SendNotification("RayvenScriptLT V2", "Hmm... Something's wrong", 2)
         end
     else
-        SendNotification("Hannonymous V2", "Hmm... Something's wrong", 2)
+        SendNotification("RayvenScriptLT V2", "Hmm... Something's wrong", 2)
     end
     ScriptLoadOrSave = false
 end)
 
 DupeMoney.MouseButton1Down:connect(function()
     if MoneyCooldown == true then
-        SendNotification("Hannonymous V2", "Cooldown! Please Wait!",2)
+        SendNotification("RayvenScriptLT V2", "Cooldown! Please Wait!",2)
         return
     elseif MoneyCooldown == false then
         MoneyCooldown = true
-        SendNotification("Hannonymous V2", "Duping...", 5)
+        SendNotification("RayvenScriptLT V2", "Duping...", 5)
         wait(1)
-        SendNotification("Hannonymous V2", "Now try to load your slot from Menu", 59)
+        SendNotification("RayvenScriptLT V2", "Now try to load your slot from Menu", 59)
         game.ReplicatedStorage.Transactions.ClientToServer.Donate:InvokeServer(game.Players.LocalPlayer, game.Players.LocalPlayer.leaderstats.Money.Value, 1)
         wait(55)
-        SendNotification("Hannonymous V2", "Now wait about 1 minute until your money's get back", 45)
-        SendNotification("Hannonymous V2", "Success! Don't forget to subscribe Hann Channel", 5)
+        SendNotification("RayvenScriptLT V2", "Now wait about 1 minute until your money's get back", 45)
+        SendNotification("RayvenScriptLT V2", "Success! Don't forget to subscribe Hann Channel", 5)
         MoneyCooldown = false
     end
 end)
