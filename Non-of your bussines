@@ -23,7 +23,7 @@ local tpmyslot = Instance.new("TextButton")
 local WoodPlayer = Instance.new("TextBox")
 local Close = Instance.new("TextButton")
 local Minimize = Instance.new("TextButton")
-local 255, 0, 255 = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
 local DupeFrame = Instance.new("Frame")
 local SaveSlot = Instance.new("TextButton")
 local SlotText = Instance.new("TextLabel")
@@ -317,7 +317,7 @@ end)
 
 Open.Name = "Open"
 Open.Parent = RubiaScriptLT2
-Open.BackgroundColor3 = Color3.fromRGB(102, 51, 153)
+Open.BackgroundColor3 = Color3.fromRGB(255, 0, 255)
 Open.Position = UDim2.new(0.839879155, 0, -0.0123076923, 0)
 Open.Size = UDim2.new(0, 54, 0, 22)
 Open.Font = Enum.Font.SourceSans
