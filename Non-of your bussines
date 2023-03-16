@@ -1,4 +1,4 @@
-local HannChannel = Instance.new("ScreenGui")
+local RubiaScriptLT2 = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
 local Hannonymous = Instance.new("TextLabel")
 local WoodFrame = Instance.new("Frame")
@@ -66,11 +66,11 @@ local ArtsShopCar = Instance.new("TextButton")
 local PowerShopCar = Instance.new("TextButton")
 local GoHomeCar = Instance.new("TextButton")
 
-HannChannel.Name = "HannChannel"
-HannChannel.Parent = game.CoreGui
+RubiaScriptLT2.Name = "RubiaScriptLT2"
+RubiaScriptLT2.Parent = game.CoreGui
 
 Main.Name = "Main"
-Main.Parent = HannChannel
+Main.Parent = RubiaScriptLT2
 Main.BackgroundColor3 = Color3.fromRGB(53, 53, 53)
 Main.Position = UDim2.new(0.132290184, 0, 0.150300607, 0)
 Main.Size = UDim2.new(0, 331, 0, 325)
@@ -298,7 +298,7 @@ Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextSize = 14.000
 Close.MouseButton1Down:connect(function()
-HannChannel:Destroy()
+RubiaScriptLT2:Destroy()
 end)
 
 Minimize.Name = "Minimize"
@@ -316,7 +316,7 @@ Open.Visible = true
 end)
 
 Open.Name = "Open"
-Open.Parent = HannChannel
+Open.Parent = RubiaScriptLT2
 Open.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
 Open.Position = UDim2.new(0.839879155, 0, -0.0123076923, 0)
 Open.Size = UDim2.new(0, 54, 0, 22)
